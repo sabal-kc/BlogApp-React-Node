@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_module/@types", "./src/types"]
+  },
+  "lib": ["es2015"]
+}
