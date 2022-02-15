@@ -20,6 +20,8 @@ Live verison of the app is deployed at:
 sabal-blog-app.herokuapp.com
 ```
 To run the app as a viewer, goto home (/) to view all the blog posts
+
+
 To run the app as admin, login via /login and you can create/update/delete posts
 
 username: test
