@@ -7,7 +7,8 @@
     "start": "ts-node --files ./src/server.ts",
     "start:prod": "npm run build && node ./dist/src/server.js",
     "build": "npx tsc",
-    "dev": "./node_modules/nodemon/bin/nodemon.js"
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "postinstall": "tsc --build && cd client/ibriz-blog-client && npm install && npm run build --prod"
   },
   "keywords": [],
   "author": "",

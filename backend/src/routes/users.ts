@@ -7,10 +7,6 @@ import isAuth from "../middlewares/auth";
 const router = express.Router();
 router.get("/", isAuth, async (req, res) => {
 	try {
-		// if (!req.isAuth) {
-		//   res.status(401).send("Unauthorized");
-		//   return;
-		// }
 		const users = await User.find();
 		res.json(users);
 	} catch (error) {
