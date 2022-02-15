@@ -152,7 +152,7 @@ export function AddBlog() {
           }}
         >
           <Typography component="h1" variant="h5">
-            {id ? "Udapte" : "Add"} blog post
+            {id ? "Update" : "Add"} blog post
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1, width: "80%" }}>
             <TextField
