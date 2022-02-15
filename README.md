@@ -22,7 +22,8 @@ sabal-blog-app.herokuapp.com
 To run the app as a viewer, goto home (/) to view all the blog posts
 
 
-To run the app as admin, login via /login and you can create/update/delete posts
-
+To run the app as admin, login via /login and enter the credentials. The home page will then show edit, delete options for individual blog post along with create option and logout option.
+```
 username: test
 password: test
+```
